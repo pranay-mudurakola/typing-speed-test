@@ -1,0 +1,94 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1e293b, #0f172a);
+      color: #e2e8f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+
+    #alphabet {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 700px;
+      margin-bottom: 2rem;
+    }
+
+    .letter {
+      font-size: 2rem;
+      margin: 0.3rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      color: #94a3b8;
+      transition: 0.2s;
+    }
+
+    .current {
+      background-color: #38bdf8;
+      color: #0f172a;
+      font-weight: bold;
+    }
+
+    .correct {
+      color: #22c55e;
+    }
+
+    .incorrect {
+      color: #ef4444;
+    }
+
+    #input-box {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      width: 300px;
+      border: 2px solid #38bdf8;
+      border-radius: 8px;
+      background: #0f172a;
+      color: #e2e8f0;
+      text-align: center;
+      outline: none;
+      margin-bottom: 0.5rem;
+      transition: border 0.3s;
+    }
+
+    #input-box.wrong {
+      border-color: #ef4444;
+    }
+
+    #hint {
+      font-size: 0.9rem;
+      color: #94a3b8;
+      margin-bottom: 1rem;
+    }
+
+    #timer, #result {
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #0f172a;
+      background: #38bdf8;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+    
